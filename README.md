@@ -3,7 +3,7 @@
 ### Includes a chatbot powered by OpenAI, a detailed view of a stock, graphs and a prediction for a period of time
 <hr>
 
-### <a href="https://shay-stock-assistant.streamlit.app/">Live Website</a> hosted on streamlit
+### <a href="https://stock-assistant-1.streamlit.app/">Live Website</a> hosted on streamlit
 ## Packages used:
 • <a href="https://pypi.org/project/yfinance/">yfinance</a> by Yahoo, for the stocks API <br>
 • <a href="https://pypi.org/project/streamlit/">Streamlit</a> for the website and hosting<br>
