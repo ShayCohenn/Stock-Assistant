@@ -13,14 +13,15 @@
 ## Features
 ### • Chatbot:
 • Getting the value of any stock<br>
+• Getting the ticker symbol providing a company's name<br>
 • Getting indicators of any stock, for example:<br>
 • Simple Moving Average (SMA),<br>
 • Exponential Moving Average (EMA),<br>
 • Relative Strength Index (RSI) and MACD <br>
 ### Detailed view:
 • Graph for any period of time after 2010 of the selected stock<br>
-• Table and a downloadable CSV file for any period of time after 2010 of the selected stock<br>
-• Price prediction for a selected time(1d, 1 week, 1 month, 3 months, 6 months, 1 year, 2 years)<br>
+• Table and a downloadable CSV file for any period of time after 2012 of the selected stock<br>
+• Price prediction for a selected time(1d, 1 week, 1 month, 3 months, 6 months, 1 year, 2 years, 5 years)<br>
 
 ## Installation:
 ### If you want to edit the code and create your own chatbot this is how:
