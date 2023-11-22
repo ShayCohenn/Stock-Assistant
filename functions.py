@@ -313,7 +313,7 @@ def predict_stock(data, period):
     forecast = forecast[['ds', 'yhat', 'yhat_lower', 'yhat_upper']]
 
     # Renaming the columns for display
-    forecast_display = forecast.rename(columns={'ds': 'Date', 'yhat': 'Forecast', 'yhat_lower': 'Lower Bound', 'yhat_upper': 'Upper Bound'})
+    forecast_display = forecast.rename(columns={'ds': 'Date', 'yhat': 'Predicted Close Price', 'yhat_lower': 'Lower Bound', 'yhat_upper': 'Upper Bound'})
 
     return forecast, forecast_display, model
 
