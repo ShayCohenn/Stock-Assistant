@@ -236,13 +236,13 @@ def chatbot(messages):
 def time_pick(time):
     amount, period = time.split(" ")
     amount = int(amount)
-    if period == "day":
+    if period == "day" or period == "days":
         return amount
-    elif period == "week":
-        amount * 7
-    elif period == "month":
+    elif period == "week" or period == "weeks":
+        return amount * 7
+    elif period == "month" or period == "months":
         return amount * 30
-    elif period == "year" or "years":
+    elif period == "year" or period == "years":
         return amount * 365
 
 # Loading the data and caching it
